@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="container">
+            <h1>Daftar</h1>
+            <p class="cepatdanmudah">Ini cepat dan mudah</p>
+            <hr>
+            <div class="namapanjang">
+                <input type="text" name="frontname" id="frontname" placeholder="Nama depan" required> <input type="text" name="lastname" id="lastname" placeholder="Nama belakang" required>
+            </div>
+            <input type="text" name="phonenumber" id="phonenumber" placeholder="Nomor seluler atau email">
+            <br>
+            <input type="password" placeholder="Kata sandi baru" name="password" id="password" required>
+            <br>
+
+            <div class="dateselect"> <label for="date">Tanggal Lahir <a href="https://binusmaya.binus.ac.id"><img src="images.png" alt="image"></a><br></label><select name="date" id="date">
+                <option selected>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+                <select id="date" name="month">
+                <option selected>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>Agus</option>
+                <option>Sept</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Des</option>
+            </select>
+                <select id="date" name="year">
+                <option selected>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select></div>
+            <p class="kelaminz">Jenis Kelamin
+                <a href="https://binusmaya.binus.ac.id"><img src="images.png" alt="image"></a>
+            </p>
+
+            <div class="kotakluarradio">
+
+                <input type="radio" name="select" id="pilihan1" checked>
+                <input type="radio" name="select" id="pilihan2">
+                <input type="radio" name="select" id="pilihan3">
+                <label for="pilihan1" class="radio pilihan1">
+                <span>Perempuan</span><div class="bulet"></div>
+                </label>
+                <label for="pilihan2" class="radio pilihan2">   
+                <span>Laki-Laki</span><div class="bulet"></div>
+                </label>
+                <label for="pilihan3" class="radio pilihan3">
+                <span>Khusus</span><div class="bulet"></div>
+                </label>
+            </div>
+
+            <br>
+            <p class="warningstext">Dengan mengklik Daftar, Anda menyetujui <a class="warningstexta" href="https://binusmaya.binus.ac.id">Ketentuan</a>, <a class="warningstexta" href="https://binusmaya.binus.ac.id ">Kebijakan Data</a> dan <a class="warningstexta" href="https://binusmaya.binus.ac.id">Kebijakan Cookie</a>                kami. Anda akan menerima Notifikasi SMS dari Facebook dan dapat menolaknya kapan saja.</p>
+            <br>
+            <button type="submit" id="daftar">Daftar</button>
+        </div>
+    </form>
+</body>
+
+</html>
